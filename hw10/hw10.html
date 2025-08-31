@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hw10.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>CatPhotoApp</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Cat Photos</h2>
+      <div>Everyone loves <a href="#">cute cats</a> online!</div>
+      <div>See more <a href="#">cat photos</a> in our gallery.</div><br />
+      <img src="/hw10/120px-Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg" alt="cat-img" />
+    </section>
+
+    <section>
+      <h2>Cat Lists</h2>
+      
+      <h3>Things cats love:</h3>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+        <img src="/hw10/OSK.jpg" alt="lasagna" />
+        <div>Cats <i>love</i> lasagna.</div>
+      </ul>
+
+      <h3>Top 3 things cats hate:</h3>
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+        <img src="/hw10/OIP.jpg" alt="cat-img">
+        <div>Cats <b>hate</b> other cats.</div>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Cat Breed</h2>
+      <table border="2px">
+        <thead>
+          <tr>
+            <th>Breed</th>
+            <th>Location of origin</th>
+            <th>Type</th>
+            <th>Body type</th>
+            <th>Coat type and length</th>
+            <th>Coat pattern</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">Abyssinian</a><sup><a href="#">[9]</a></sup></td>
+            <td>Unspecified, but somewhere in Afro-Asia, likely <a href="#">Ethiopia</a><sup><a href="#">[10]</a></sup></td>
+            <td>Natural</td>
+            <td>Semi-foreign</td>
+            <td>Short</td>
+            <td>Ticked tabby</td>
+            <td><img src="/hw10/120px-Gustav_chocolate.jpg" alt="Abyssinian"></td>
+          </tr>
+          <tr>
+            <td><a href="#">Aegean</a></td>
+            <td>Greece</td>
+            <td>Natural</td>
+            <td>Moderate</td>
+            <td>Semi-long</td>
+            <td>Multi-color</td>
+            <td><img src="/hw10/Aegean_cat.jpg" alt="Aegean"></td>
+          </tr>
+          <tr>
+            <td><a href="#">American Bobtail</a><sup><a href="#">[11]</a></sup></td>
+            <td>United States<sup><a href="#">[12]</a></sup></td>
+            <td>Mutation of shortened tail</td>
+            <td>Cobby</td>
+            <td>Semi-long</td>
+            <td>All</td>
+            <td><img src="/hw10/120px-American_bobtail_2.jpg" alt="American Bobtail"></td>
+          </tr>
+          <tr>
+            <td><a href="#">American Curl</a><sup><a href="#">[13]</a></sup></td>
+            <td>United States<sup><a href="#">[12]</a></sup></td>
+            <td>Mutation</td>
+            <td>Semi-foreign</td>
+            <td>Semi-long</td>
+            <td>All</td>
+            <td><img src="/hw10/EC_Recknagel_Annakurnikoova_ACS_gs_24.JPG" alt="American Curl"></td>
+          </tr>
+          <tr>
+            <td><a href="#">American Shorthair</a></td>
+            <td>United States<sup><a href="#">[12]</a></sup></td>
+            <td>Natural</td>
+            <td>Cobby</td>
+            <td>Short</td>
+            <td>All</td>
+            <td><img src="/hw10/GC_Yatfung's_Brown_Cobra.jpg" alt="American Shorthair"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Cat Form</h2>
+      <form action="" method="get">
+        <div class="box">
+          <div class="box-title">Is your cat an indoor or outdoor cat?</div>
+          <label for="type"><input type="radio" name="type" value="indoor" checked="indoor" />Indoor</label>
+          <label for="type"><input type="radio" name="type" value="outdoor" />Outdoor</label>
+        </div>
+
+        <div class="box" style="margin-top: 20px; margin-bottom: 10px;">
+          <div class="box-title">What's your cat's personality?</div>
+          <label for="personality"><input type="checkbox" name="personality" value="loving" checked="loving" />Loving</label>
+          <label for="personality"><input type="checkbox" name="personality" value="lazy" />Lazy</label>
+          <label for="personality"><input type="checkbox" name="personality" value="energetic" />Energetic</label>
+        </div>
+
+        <input type="url" name="URL" placeholder="cat photo URL" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <div>No Copyright - <a href="https://rikkei.edu.vn/">rikkei.edu.vn</a></div>
+  </footer>
+</body>
+</html>

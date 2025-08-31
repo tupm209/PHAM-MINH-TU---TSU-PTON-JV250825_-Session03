@@ -1,0 +1,12 @@
+.box {
+    position: relative;
+    border: 1px solid #000000;
+    padding: 15px;
+}
+
+.box-title {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    background: rgb(255, 255, 255);
+}
